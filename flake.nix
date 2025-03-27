@@ -28,7 +28,7 @@
                 dontUnpack = true;
                 installPhase = ''
                     mkdir -p $out/share/fonts/truetype
-                    mv $src/\*.ttf $out/share/fonts/truetype/
+                    mv $src $out/share/fonts/truetype/
                 '';
             };
         };
